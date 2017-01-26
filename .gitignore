@@ -1,0 +1,10 @@
+/out
+
+# Where 3rd-party dependencies like ExDoc output generated docs.
+/doc
+
+**/deps
+**/tmp
+**/node_modules
+
+**/.DS_Store
