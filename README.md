@@ -1,6 +1,6 @@
 # pronto-proto
 
-A quick bootstrap/scss prototyping tool to try out different designs and see which one best fits your needs.
+A quick bootstrap/scss prototyping tool to try out different designs and see which one best fits your needs. Supports live reload via live-server so change your files and see the results in the browser instantly.
 
 1. Live-server
 2. Bootstrap 4
