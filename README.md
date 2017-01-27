@@ -12,6 +12,7 @@ Usage:
 Clone the repo, cd into, install npm modules, run it, open the browser navigate to port 8080
 
 $ npm install
+
 $ npm run-script go
 
 Load the http://localhost:8080 page in your browser and you are all set. 
