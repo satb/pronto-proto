@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "go" : "node-sass -w -r css/scss -o out --source-map=true --output-style=compressed && live-server --no-browser --ignore=css/scss,css/main.css.map"
+    "go" : "node-sass --watch --recursive css/scss -o out --source-map=true --output-style=compressed & live-server --no-browser --ignore=css/scss,css/main.css.map"
   },
   "author": "",
   "license": "ISC",
