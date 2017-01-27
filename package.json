@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev-mode" : "node-sass -w css/scss/main.scss -o out --source-map=true --output-style=compressed & live-server --no-browser --ignore=css/scss,css/style.css.map"
+    "go" : "node-sass -w -r css/scss -o out --source-map=true --output-style=compressed && live-server --no-browser --ignore=css/scss,css/main.css.map"
   },
   "author": "",
   "license": "ISC",
