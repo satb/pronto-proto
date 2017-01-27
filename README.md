@@ -1,6 +1,6 @@
 # pronto-proto
 
-A quick prototyping tool to test your styles.
+A quick bootstrap/scss prototyping tool to try out different designs and see which one best fits your needs.
 
 1. Live-server
 2. Bootstrap 4
@@ -9,12 +9,13 @@ A quick prototyping tool to test your styles.
 
 Usage:
 
-Clone the repo, cd into it and launch
+Clone the repo, cd into, install npm modules, run it, open the browser navigate to port 8080
 
-$ npm run-script dev-mode
-
-Add any scss file or update an existing css file and the output css will be in a folder called "out".
+$ npm install
+$ npm run-script go
 
 Load the http://localhost:8080 page in your browser and you are all set. 
 
-Quickly prototype your designs and see it come to life.
+Add any scss file or update an existing css file and the output css will be in a folder called "out".
+
+
